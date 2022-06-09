@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Red"
+        android:textColor="@color/black"
+        android:layout_marginTop="200sp"
+        android:layout_marginLeft="40sp"
+        android:backgroundTint="#FF0000"
+        android:id="@+id/btnRed"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Orange"
+        android:layout_marginTop="-13sp"
+        android:layout_toEndOf ="@+id/btnRed"
+        android:layout_below="@+id/btnRed"
+        android:backgroundTint="#FFA500"
+        android:id="@+id/btnOrange"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yellow"
+        android:textColor="@color/black"
+        android:layout_toEndOf="@id/btnOrange"
+        android:layout_below="@+id/btnOrange"
+        android:layout_marginTop="-13sp"
+        android:backgroundTint="#FFFF00"
+        android:id="@+id/btnYellow"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Green"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@+id/btnYellow"
+        android:layout_below="@+id/btnYellow"
+        android:layout_marginTop="-13sp"
+        android:backgroundTint="#00FF00"
+        android:id="@+id/btnGreen"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blue"
+        android:textColor="@color/white"
+        android:layout_toStartOf="@id/btnGreen"
+        android:layout_below="@id/btnGreen"
+        android:layout_marginTop="-13sp"
+        android:backgroundTint="#0000FF"
+        android:id="@+id/btnBlue"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indigo"
+        android:textColor="@color/white"
+        android:layout_toStartOf="@+id/btnBlue"
+        android:layout_below="@id/btnBlue"
+        android:layout_marginTop="-13sp"
+        android:backgroundTint="#4b0082"
+        android:id="@+id/btnIndigo"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Violet"
+        android:textColor="@color/black"
+        android:layout_toStartOf="@+id/btnIndigo"
+        android:layout_below="@+id/btnIndigo"
+        android:layout_marginTop="-13sp"
+        android:backgroundTint="#8F00FF"
+        android:id="@+id/btnViolet"
+        />
+
+
+
+</RelativeLayout>
